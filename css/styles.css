@@ -1,1 +1,8 @@
+body {
+  text-align: center;
+  margin: 4rem;
+}
 
+#results {
+  font-size: 400%;
+}

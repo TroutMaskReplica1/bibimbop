@@ -1,6 +1,8 @@
 
 $(document).ready(function() {
-  $().submit(function(event) {
+  $(".form").submit(function(event) {
     event.preventDefault();
+    var result = $("input#input").val();
+    $("#results").text(result);
   });
 });
