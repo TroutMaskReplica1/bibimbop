@@ -5,6 +5,7 @@ body {
 }
 
 #results {
+  display: none;
   font-size: 400%;
 }
  .jumbotron {
