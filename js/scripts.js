@@ -20,10 +20,15 @@ var change = function(result) {
   }
 }
 
+
+
 $(document).ready(function() {
   $(".form").submit(function(event) {
     event.preventDefault();
-    var input = rangeFinder(change(parseInt($("input#input").val())));
-    $("#results").text(input);
+    var input = $("input#input").val();
+    var range = rangeFinder(input);
+    var number = (parseInt(range));
+    var results = change(number);
+    $("#results").text(results);
   });
 });
