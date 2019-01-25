@@ -1,8 +1,12 @@
 body {
   text-align: center;
   margin: 4rem;
+  background-color: lightpink;
 }
 
 #results {
   font-size: 400%;
 }
+ .jumbotron {
+   background-color: lightblue;
+ }
