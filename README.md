@@ -1,3 +1,41 @@
+# _Beep Boop!_
+
+#### _Week 3 independent project, 1/25/2019_
+
+#### By _**Ryan Dikeos**_
+
+## Description
+
+_This is a site that takes the number the user enters and returns a list of all the numbers between 0 and that number with all 1's turned into beep, all 2's turned to boop, and all 3's replaced with I'm sorry, Dave. I can't let you do that. This is an exercise in JavaScript._
+
+## Setup/Installation Requirements
+
+* _Clone this repository_
+* _Open by double clicking index.html_
+
+## Known Bugs
+
+_No known bugs_
+
+## Support and contact details
+
+_Email me at ryan.dikeos@gmail.com_
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _jQuery_
+* _Bootstrap_
+
+### License
+
+*MIT*
+
+Copyright (c) 2016 **_Ryan Dikeos_**
+
+
 spec:
   input: "1"
   output: "Beep!"
