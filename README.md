@@ -33,31 +33,41 @@ _Email me at ryan.dikeos@gmail.com_
 
 *MIT*
 
-Copyright (c) 2016 **_Ryan Dikeos_**
+Copyright (c) 2019 **_Ryan Dikeos_**
 
 
 spec:
   input: "1"
   output: "Beep!"
+The input is turned into a "word", taken apart at the "letters", and then transformed into "Beep!"
+
 
 spec:
   input: "2"
   output: "Boop!"
+The input is turned into a "word", taken apart at the "letters", and then transformed into "Boop!".
+
 
 spec:
   input: "3"
   output: "I'm sorry, Dave. I'm afraid I can't do that."
+The input is turned into a "word", taken apart at the "letters", and then transformed into "I'm sorry, Dave. I'm afraid I can't do that." 
+
 
 If the input has two or more numbers to act on, use the most "important" rule that applies, the rule that comes last that can be used upon it.
 
 spec:
   input: "13"
   output: "I'm sorry, Dave. I'm afraid I can't do that."
+ The input is turned into a "word", taken apart at the "letters", and then transformed into "I'm sorry, Dave. I'm afraid I can't do that." because the rule for threes superseceds the rule for twos, as the rule for twos supercedes the rule for ones.
+
 
 spec:
   input: "21"
   output: "Boop!"
+The input is turned into a "word", taken apart at the "letters", and then transformed into "Boop!" because the rule for twos supercedes the rule for ones.
 
 spec:
   input:"32"
   output: "I'm sorry, Dave. I'm afraid I can't do that."
+The input is turned into a "word", taken apart at the "letters", and then transformed into "I'm sorry, Dave. I'm afraid I can't do that." because the rule for threes superseceds the rule for twos, as the rule for twos supercedes the rule for ones.
